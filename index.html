@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Exercice 6</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.3/angular.min.js"></script>
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <div ng-app="myApp" ng-controller="ShowHide">
+
+    <button ng-click="hide()">Texte1</button>
+    <button ng-click="show()">Texte2</button>
+
+    <p ng-hide="hide1">Lorem ipsum dolor sit ame, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+      reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <p ng-hide="hide2">Faire une page HTML contenant deux paragrahes et deux boutons. Au clic sur le premier uniquement le paragrahe 1 doit être visible. Au clic sur le bouton deux, seulement le paragrahe 2 doit aparaître.</p>
+
+  </div>
+</body>
+
+</html>
